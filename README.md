@@ -8,3 +8,4 @@ The 49525 part can be replaced by the zip code of whereever you want the weather
 This uses the google maps api to ger your coordinates based on your zip code,
 this then feeds those coordinates to the darksky weather api to get your weather for your current zip code
 
+If you run into a "Cannot read property 'geometry' of undefined" try running npm audit fix
